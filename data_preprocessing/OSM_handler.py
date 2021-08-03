@@ -7,7 +7,6 @@
 import osmium as osm
 import pandas as pd
 import numpy as np
-from geopy import distance
 
 # Nodes
 
