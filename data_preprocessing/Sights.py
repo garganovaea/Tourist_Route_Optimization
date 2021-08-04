@@ -7,7 +7,7 @@
 import pandas as pd
 import numpy as np
 
-class sights(df_wtags, df_wnodes, df_nodes):
+class sights(df_tags, df_wnodes, df_nodes):
     
     '''
     Search for a list of nodes ids which are sights and can be reached by people.
