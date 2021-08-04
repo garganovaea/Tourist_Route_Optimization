@@ -99,7 +99,7 @@ class sights(df_tags, df_wnodes, df_nodes):
 
         return df_nodes[(df_nodes['lat'] == all_lats[sum_dif.index(min(sum_dif))])].id.values[0]
     
-    def allow(self, allows_f):
+    def change(self, allows_f):
         '''
         Make all sights in the list available 
         '''
