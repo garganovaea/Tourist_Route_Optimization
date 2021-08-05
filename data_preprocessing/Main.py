@@ -59,7 +59,6 @@ value_sight = ['artwork', 'attraction', 'gallery', 'museum', 'viewpoint', 'cathe
 tags_sights = pd.DataFrame()
 tags_sights['value'] = value_sight
 
-
 # Find sights
 result = Sights_class(df_Ways_t, df_Ways_n, df_Nodes)
 
@@ -72,7 +71,6 @@ result.save()
 
 
 # Adjacency matrix
-
 matrix = Adj_matrix_class().create_matrix()
 adjacency_matrix = matrix.weighted_matrix()
 
