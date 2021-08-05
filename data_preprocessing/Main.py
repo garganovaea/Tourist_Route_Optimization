@@ -71,7 +71,7 @@ result.save()
 
 
 # Adjacency matrix
-matrix = Adj_matrix_class().create_matrix()
+matrix = Adj_matrix_class(df_Ways_n, df_Nodes).create_matrix()
 adjacency_matrix = matrix.weighted_matrix()
 
 adjacency_matrix.to_csv('Adj_Matrix.csv')
